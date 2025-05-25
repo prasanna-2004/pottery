@@ -1,1 +1,1 @@
-# pottery
+# pottery store
