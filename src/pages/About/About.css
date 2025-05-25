@@ -1,0 +1,119 @@
+/* About.css */
+.about-hero {
+  background: url('C:\Users\laksh\Desktop\projects\e - commerce website\pottery-ecommerce\public\images\about-hero (2).jpg');
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-section h2 {
+  color: var(--primary-color);
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.about-section p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.process-steps {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.process-steps li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.process-steps li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.team-section {
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.team-member {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 auto 15px;
+  overflow: hidden;
+}
+
+.placeholder-1 {
+  background-color: #d4a373;
+}
+
+.placeholder-2 {
+  background-color: #a68a64;
+}
+
+.placeholder-3 {
+  background-color: #8b5e3c;
+}
+
+.team-member h3 {
+  margin-bottom: 5px;
+  color: var(--primary-color);
+}
+
+.team-member p {
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+}
